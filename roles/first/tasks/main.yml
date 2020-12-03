@@ -1,0 +1,14 @@
+---
+- name: print $home
+  shell: echo $HOME
+  register: echo_home
+  
+- debug:
+    var: echo_home.stdout
+  
+- name: print hostname
+  shell: hostname
+  register: print_host
+  
+ debug:
+   var: print_host.stdout
