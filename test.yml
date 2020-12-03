@@ -3,4 +3,4 @@
   hosts: ubuntu
 
   roles:
-  - test
+  - first
