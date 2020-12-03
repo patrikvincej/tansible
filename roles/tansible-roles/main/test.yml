@@ -1,6 +1,6 @@
 ---
 - name: print $home
-  debug: var=ansible_user_dir
+  shell: echo $HOME
   
 - name: print hostname
-  debug: var=inventory_hostname
+  shell: hostname
