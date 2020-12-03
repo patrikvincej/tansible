@@ -1,0 +1,6 @@
+---
+- name: print $home
+  debug: var=ansible_user_dir
+  
+- name: print hostname
+  debug: var=inventory_hostname
