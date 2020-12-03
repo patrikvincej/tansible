@@ -1,0 +1,6 @@
+---
+- name: tansible playbook
+  hosts: ubuntu
+
+  roles:
+  - test
