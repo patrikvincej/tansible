@@ -8,3 +8,7 @@
   
 - name: print hostname
   shell: hostname
+  register: print_host
+  
+ debug:
+ var: print_host.stdout
