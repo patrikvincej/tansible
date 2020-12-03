@@ -1,6 +1,0 @@
----
-- name: print $home
-  shell: echo $HOME
-  
-- name: print hostname
-  shell: hostname
